@@ -1,0 +1,85 @@
+<!-- TJ SEIMELA   223670863 -->
+<!-- SS MAINE     224139983 -->
+<!-- OR ITUMELENG 224370693 -->
+<!-- NT JABULANE  223898724 -->
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact or visit Ubuntu Bloom in Vanderbijlpark for plant enquiries, care advice and nursery assistance.">
+<title>Contact | Ubuntu Bloom</title>
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-group">
+      <span>📍 18 Riverleaf Avenue, Vanderbijlpark, 1911</span>
+      <a href="tel:+27165550148">☎ +27 16 555 0148</a>
+    </div>
+    <div class="topbar-group social-short">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Ubuntu Bloom home">
+      <img src="images/logo.svg" alt="Ubuntu Bloom leaf logo">
+      <span class="brand-text"><strong>Ubuntu Bloom</strong><span>PLANT NURSERY &amp; PLANT CARE CENTRE</span></span>
+    </a>
+    <div class="nav-wrap">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" data-i18n="home">Home</a></li>
+          <li class="nav-item-dropdown">
+            <button class="dropdown-toggle" type="button" aria-expanded="false" data-i18n="plants">Plants</button>
+            <ul class="dropdown-menu">
+              <li><a href="plants.html?category=indoor" data-i18n="indoorPlants">Indoor Plants</a></li>
+              <li><a href="plants.html?category=outdoor" data-i18n="outdoorPlants">Outdoor Plants</a></li>
+              <li><a href="plants.html?category=succulent" data-i18n="succulents">Succulents</a></li>
+              <li><a href="plants.html?category=herb" data-i18n="herbs">Herbs</a></li>
+            </ul>
+          </li>
+          <li><a href="plant-care.html" data-i18n="plantCare">Plant Care</a></li>
+          <li><a href="about.html" data-i18n="about">About Us</a></li>
+          <li><a href="contact.html" data-i18n="contact" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <label class="sr-only" for="language-select" style="position:absolute;left:-9999px">Language</label>
+      <select class="language-select" id="language-select" aria-label="Select language">
+        <option value="en">English</option><option value="zu">isiZulu</option><option value="st">Sesotho</option>
+      </select>
+    </div>
+  </div>
+</header>
+<main id="main"><section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="index.html" data-i18n="home">Home</a> / <span data-i18n="contact">Contact</span></div><h1 data-i18n="contactTitle">Let’s help your space bloom</h1><p data-i18n="contactIntro">Ask about a plant, a care issue or a nursery visit. Our team will get back to you as soon as possible.</p></div></section>
+<section class="section"><div class="container contact-grid"><div><article class="content-card"><h2 data-i18n="visitUs">Visit Ubuntu Bloom</h2><div class="contact-list"><div class="contact-item"><div class="icon">📍</div><div><strong data-i18n="addressLabel">Address</strong><div>18 Riverleaf Avenue, Vanderbijlpark, Gauteng, 1911</div></div></div><div class="contact-item"><div class="icon">☎</div><div><strong data-i18n="phoneLabel">Phone</strong><div><a href="tel:+27165550148">+27 16 555 0148</a></div></div></div><div class="contact-item"><div class="icon">✉</div><div><strong data-i18n="emailLabel">Email</strong><div><a href="mailto:hello@ubuntubloom.co.za">hello@ubuntubloom.co.za</a></div></div></div></div><h3 data-i18n="hours">Opening Hours</h3><div class="table-wrap hours-table"><table><tbody><tr><th data-i18n="mondayFriday">Monday – Friday</th><td>08:00 – 17:30</td></tr><tr><th data-i18n="saturday">Saturday</th><td>08:00 – 15:00</td></tr><tr><th data-i18n="sunday">Sunday</th><td data-i18n="closed">Closed</td></tr></tbody></table></div></article><div class="map-placeholder" style="margin-top:20px"><div><strong style="font-size:1.4rem" data-i18n="mapTitle">Nursery location</strong><p data-i18n="mapText">Visit us at 18 Riverleaf Avenue, Vanderbijlpark, Gauteng, 1911 for plant shopping, collections and in-person care advice.</p></div></div></div>
+<form class="contact-form" id="contact-form" action="process-contact.php" method="post" data-formspree-endpoint="https://formspree.io/f/myeknajw" novalidate><h2 data-i18n="sendMessage">Send us a message</h2><div class="form-status" id="form-status" tabindex="-1" aria-live="polite"></div><input type="hidden" id="form-language" name="language" value="en"><input type="hidden" name="subject" value="New Ubuntu Bloom website enquiry from {{ name }}"><div class="form-grid"><div class="form-group"><label for="name" data-i18n="name">Name</label><input id="name" name="name" autocomplete="name" required><span class="form-error" id="name-error"></span></div><div class="form-group"><label for="email" data-i18n="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="form-error" id="email-error"></span></div><div class="form-group"><label for="phone" data-i18n="phone">Phone (optional)</label><input id="phone" name="phone" autocomplete="tel"></div><div class="form-group"><label for="topic" data-i18n="topic">Topic</label><select id="topic" name="topic" required><option value="" data-i18n="chooseTopic">Choose a topic</option><option value="plant-enquiry" data-i18n="plantEnquiry">Plant enquiry</option><option value="care-question" data-i18n="careQuestion">Plant-care question</option><option value="nursery-visit" data-i18n="visitQuestion">Nursery visit</option><option value="other" data-i18n="other">Other</option></select><span class="form-error" id="topic-error"></span></div><div class="form-group full"><label for="message" data-i18n="message">Message</label><textarea id="message" name="message" required></textarea><span class="form-error" id="message-error"></span></div><div class="form-group full"><button class="btn btn-dark" type="submit" data-i18n="send">Send Message</button></div></div></form></div></section></main>
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div><h2 data-i18n="ctaTitle">Ready to bring home something green?</h2><p data-i18n="ctaText">Browse our plants or send us an enquiry and we will help you choose.</p></div>
+    <div class="hero-actions"><a class="btn btn-primary" href="plants.html" data-i18n="explorePlants">Explore Our Plants</a><a class="btn btn-secondary" href="contact.html" data-i18n="contactUs">Contact Us</a></div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><img src="images/logo.svg" alt=""><span class="brand-text"><strong style="color:white">Ubuntu Bloom</strong><span style="color:#dce8dd">PLANT NURSERY &amp; PLANT CARE CENTRE</span></span></a>
+        <p data-i18n="footerText">A friendly South African plant nursery helping people grow with confidence.</p>
+      </div>
+      <div><div class="footer-title" data-i18n="quickLinks">Quick Links</div><ul class="footer-links"><li><a href="index.html" data-i18n="home">Home</a></li><li><a href="plants.html" data-i18n="plants">Plants</a></li><li><a href="plant-care.html" data-i18n="plantCare">Plant Care</a></li><li><a href="about.html" data-i18n="about">About Us</a></li><li><a href="contact.html" data-i18n="contact">Contact</a></li></ul></div>
+      <div><div class="footer-title" data-i18n="contactUs">Contact Us</div><ul class="footer-links"><li>📍 18 Riverleaf Avenue, Vanderbijlpark, 1911</li><li><a href="tel:+27165550148">☎ +27 16 555 0148</a></li><li><a href="mailto:hello@ubuntubloom.co.za">✉ hello@ubuntubloom.co.za</a></li></ul></div>
+      <div><div class="footer-title" data-i18n="followUs">Follow Us</div><div class="socials"><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">f</a><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">◎</a><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">▶</a></div><p style="margin-top:18px"><a class="text-link" style="color:#dce8dd" href="https://www.sanbi.org/" target="_blank" rel="noopener">SANBI</a> · <a class="text-link" style="color:#dce8dd" href="https://pza.sanbi.org/" target="_blank" rel="noopener">PlantZAfrica</a></p></div>
+    </div>
+    <div class="footer-bottom"><span data-i18n="copyright">© 2026 Ubuntu Bloom. All rights reserved.</span><span data-i18n="footerTagline">Grow together. Bloom together.</span></div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body></html>
